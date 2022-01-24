@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+h1{
+    color:black;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    width:50%;
+    text-shadow:1px 1px 1px white;
+    background-color: rgb(46, 46, 240);
+
+}
+h1:hover{
+ color:yellow;
+ text-shadow:1px 1px 1px grey;
+
+}
+#show_sketch{
+    float:right;
+
+}
+
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name:example;
+    animation-duration:4s;
+    margin-top:80px;
+    animation-iteration-count:infinite;
+}
+@keyframes example{
+    from {box-shadow:1px 1px 38px grey;}
+    to   {box-shadow:1px 1px 38px white;}
+}
+ 
+p{
+    padding-top:10px;
+    font-size:30px;
+}
+#footer{
+    position:fixed;
+    line-height:3;
+    background-color:white;
+    width:100%;
+    color:grey;
+    text-align:center;
+    text-shadow:1px 1px yellow;
+    bottom:0;
+}
